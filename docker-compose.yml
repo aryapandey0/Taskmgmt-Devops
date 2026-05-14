@@ -38,8 +38,5 @@ services:
     depends_on:
      - backendapp
 
-    volumes:
-     - /var/jenkins_home/workspace/JenkinsTest/nginx/default.conf:/etc/nginx/conf.d/default.conf
-
 volumes:
      mysql-data:

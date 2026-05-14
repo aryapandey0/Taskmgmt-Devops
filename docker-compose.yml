@@ -31,7 +31,7 @@ services:
       - mysql-data:/var/lib/mysql
 
   nginx:
-    image: nginx:latest
+    build: ./nginx
     container_name: nginx-com
     ports:
      - "80:80"

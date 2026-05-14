@@ -2,13 +2,15 @@ pipeline {
 
     agent any
 
+
+    stages {
+
+        
     stage('Debug') {
       steps {
         sh 'pwd'
        }
      }
-
-    stages {
 
         stage('Checkout') {
             steps {
